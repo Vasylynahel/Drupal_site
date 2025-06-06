@@ -1,0 +1,9 @@
+parameters:
+  http.response.debug_cacheability_headers: true
+
+services:
+  cache.dynamic_page_cache:
+    alias: cache.backend.memory
+  cache.render:
+    alias: cache.backend.memory
+
