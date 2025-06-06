@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ language.getId }}">
+  <head>
+    <head-placeholder token="{{ placeholder_token }}">
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <css-placeholder token="{{ placeholder_token }}">
+    <js-placeholder token="{{ placeholder_token }}">
+  </head>
+  <body{{ attributes }}>
+    <header>
+      <h1>{{ site_name }} - Sub</h1>
+      {{ page.header }}
+    </header>
+    <main>
+      {{ page.content }}
+    </main>
+    <footer>
+      <p>© {{ "now"|date("Y") }} Exam Sub Project</p>
+    </footer>
+    {{ page.bottom }}
+  </body>
+</html>
+

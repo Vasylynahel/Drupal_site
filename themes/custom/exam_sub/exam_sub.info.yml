@@ -1,0 +1,13 @@
+name: 'Exam Subtheme'
+type: theme
+description: 'Subtheme of the Exam theme.'
+core_version_requirement: ^10 || ^11
+base theme: exam
+libraries:
+  - exam_sub/global-styling
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'
+

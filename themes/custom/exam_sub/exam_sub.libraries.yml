@@ -1,0 +1,11 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/sub-style.css: {}
+  js:
+    js/sub-script.js: {}
+  dependencies:
+    - core/jquery
+    - exam/global-styling
+

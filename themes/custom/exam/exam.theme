@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Contains theme hooks and preprocess functions for the Exam theme.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK() for page templates.
+ */
+function exam_preprocess_page(&$variables) {
+  // Додати змінні або логіку для шаблону сторінки.
+}
+

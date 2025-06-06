@@ -1,0 +1,13 @@
+name: 'Exam'
+type: theme
+description: 'Custom theme for the Exam project.'
+core_version_requirement: ^10 || ^11
+base theme: classy
+libraries:
+  - exam/global-styling
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'
+

@@ -1,0 +1,50 @@
+# ======================================================
+# Ignoring sensitive and build-related files for Drupal
+# ======================================================
+
+# Composer dependencies
+/vendor/
+
+# Node dependencies (якщо використовуєш npm або yarn)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Drupal temporary and private files
+/web/sites/*/files/
+web/sites/*/private/
+web/sites/*/settings.php
+web/sites/*/services.yml
+
+# Drupal core (якщо керуєш через Composer — це правильно)
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+
+# Ignore synced configuration overrides (залиш /config/sync/)
+# /config/env.*/
+
+# Sensitive environment configuration
+.env
+.env.local
+.env.stage
+.env.prod
+
+# IDE and editor junk
+.idea/
+.vscode/
+*.swp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Screenshot and misc
+/web/sites/*/files/tmp/
+screenshot.png
