@@ -1,0 +1,11 @@
+id: exam_footer
+plugin: system_powered_by_block
+region: footer
+theme: exam_sub
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: ''
+    context_mapping: {}
+

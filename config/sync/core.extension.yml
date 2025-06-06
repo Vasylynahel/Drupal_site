@@ -1,0 +1,11 @@
+module:
+  node: 0
+  user: 0
+  block: 0
+  views: 0
+  # додай свої модулі
+
+theme:
+  exam: 0
+  exam_sub: 0
+
